@@ -1,0 +1,32 @@
+<mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto" padding="20px 0" text-align="center">
+  <mj-column vertical-align="top">
+    <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="13px" letter-spacing="0" padding-bottom="0px" padding-left="25px" padding-right="25px" padding-top="0px" padding="0px 25px 0px 25px" vertical-align="top">
+      <p class="text-build-content" data-testid="5hDDqkXe8O" style="margin: 10px 0; margin-top: 10px">
+        <span style="color: #5e6977; font-family: Arial; font-size: 18px; line-height: 20px">Hörmətli <b>{{USER_FULL_NAME}}</b>,</span>
+      </p>
+      <p class="text-build-content" data-testid="5hDDqkXe8O" style="margin: 10px 0">
+        <span style="color: #5e6977; font-family: Arial; font-size: 18px; line-height: 20px">Təbrik edirik, siz uğurlu şəkildə qeydiyyatdan keçdiniz.</span>
+      </p>
+      <p class="text-build-content" data-testid="5hDDqkXe8O" style="margin: 10px 0; margin-bottom: 10px">
+        <span style="color: #5e6977; font-family: Arial; font-size: 18px; line-height: 20px">Hesabınızı aktivləşdirmək üçün aşağıdakı düyməyə klikləyin</span>
+      </p>
+    </mj-text>
+    <mj-button href="{{VERIFY_LINK}}" align="center" background-color="#0549aa" border-radius="4px" border="0px solid #ffffff" color="#ffffff" container-background-color="transparent" font-family="Arial, sans-serif" font-size="14px" font-weight="normal" inner-padding="10px 25px 10px 25px" padding-left="25px" padding-right="25px" padding="15px 25px 15px 25px" text-decoration="none" text-transform="none" vertical-align="top">
+      <span style="
+                    font-size: 14px;
+                    font-family: Arial;
+                    color: #ffffff;
+                    background-color: #0549aa;
+                    text-align: center;
+                "><b>TƏSDİQLƏ</b></span>
+    </mj-button>
+    <mj-text align="left" color="#000000" font-size="13px" letter-spacing="0" padding-bottom="0px" padding-top="0px" padding="10px 25px">
+      <p class="text-build-content" data-testid="eA20GqBRl5" style="margin: 10px 0; margin-top: 10px">
+        <span style="color: #5e6977; font-family: Arial; font-size: 16px; line-height: 16px">
+          Düymə işləmədiyi halda aşağıdakı linki brauzerdə açmağı yoxlayın:
+        </span>
+      </p>
+      <a href="{{VERIFY_LINK}}" target="_blank" style="font-family: Arial; font-size: 14px; line-height: 18px">{{VERIFY_LINK}}</a>
+    </mj-text>
+  </mj-column>
+</mj-section>

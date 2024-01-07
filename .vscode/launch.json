@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Nest Debug",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": ["run", "start:debug", "--", "--inspect-brk"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceRoot}/src",
+            "outFiles": ["${workspaceRoot}/dist/**/*.js"],
+            "restart": true,
+            "protocol": "auto",
+            "port": 9229,
+            "autoAttachChildProcesses": true
+        },
+        {
+            "name": "NestJS Debug",
+            "type": "node",
+            "request": "launch",
+            "protocol": "inspector",
+            "timeout": 25000,
+            "port": 9229,
+            "runtimeArgs": ["start:debug"],
+            "sourceMaps": true,
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "yarn",
+            "windows": {
+                "runtimeExecutable": "yarn.cmd"
+            },
+            "skipFiles": ["${workspaceRoot}/node_modules/**/*.js", "<node_internals>/**/*.js"],
+            "outFiles": ["${workspaceRoot}/compiled/**/*.js"],
+            "console": "integratedTerminal",
+            "outputCapture": "std",
+            "autoAttachChildProcesses": true
+        }
+    ]
+}

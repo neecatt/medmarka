@@ -1,0 +1,16 @@
+{
+    "collection": "@nestjs/schematics",
+    "sourceRoot": "src",
+    "compilerOptions": {
+        "assets": ["assets/**/*.*", "static/**/*", "templates/**/*.*"],
+        "plugins": [
+            {
+                "name": "@nestjs/swagger/plugin",
+                "options": {
+                    "dtoFileNameSuffix": [".dto.ts", ".command.ts", ".view-model.ts"],
+                    "classValidatorShim": false
+                }
+            }
+        ]
+    }
+}

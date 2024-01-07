@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+    backend:
+        image: registry.mediusoft.com/medmarka/medmarka-api:${CI_COMMIT_SHORT_SHA}
+        container_name: medmarka-api-${APP_ENV}
+        command: yarn start:prod
+        restart: unless-stopped
+        networks:
+            - reverse-proxy
+        env_file:
+            - .env
+        labels:
+            - traefik.enable=true
+            - traefik.http.routers.medmarka-api-${APP_ENV}.rule=Host(`${BACKEND_HOST}`)
+            - traefik.http.routers.medmarka-api-${APP_ENV}.entrypoints=websecure
+            - traefik.http.routers.medmarka-api-${APP_ENV}.tls.certresolver=leresolver
+            - traefik.http.routers.medmarka-api-${APP_ENV}.middlewares=gzip
+
+networks:
+    reverse-proxy:
+        external: true

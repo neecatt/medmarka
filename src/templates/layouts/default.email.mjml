@@ -1,0 +1,51 @@
+<mjml owa="desktop" version="4.6.3">
+  <mj-head>
+    <mj-title>{{TITLE}}</mj-title>
+  </mj-head>
+
+  <mj-body background-color="#F4F4F4">
+    <mj-section background-color="#ffffff" background-repeat="repeat" border="0px solid #ffffff" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 20px 0px" text-align="center">
+      <mj-column vertical-align="top">
+        <mj-divider border-color="#0549aa" border-style="solid" border-width="4px" container-background-color="#ffffff" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px" width="100%"></mj-divider>
+        <mj-image align="center" alt="Staffy Logo" border-radius="0" border="none" container-background-color="#ffffff" fluid-on-mobile="false" height="48px" href="{{WEBSITE_URL}}" padding-left="25px" padding-right="25px" padding-top="20px" padding="20px 25px 10px 25px" src="https://s3.satgroup.az/assets/photo_2023-07-28_18-50-06.jpg" target="_blank" width="128px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    {{{BODY}}}
+
+    <mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto" border="0px solid #ffffff" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px" text-align="center">
+      <mj-column vertical-align="top">
+        <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="13px" letter-spacing="0" padding-bottom="0px" padding-left="25px" padding-right="25px" padding-top="0px" padding="0px 25px 0px 25px">
+          <p class="text-build-content" data-testid="-_udTMFZiW6r" style="margin: 10px 0; margin-top: 10px">
+            <span style="color: #5e6977; font-family: Arial; font-size: 18px; line-height: 22px">Hörmətlə,</span>
+          </p>
+          <p class="text-build-content" data-testid="-_udTMFZiW6r" style="margin: 10px 0; margin-bottom: 10px">
+            <span style="color: #5e6977; font-family: Arial; font-size: 18px; line-height: 22px"><b>Həkimbaba</b> komandası</span>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" background-repeat="repeat" border="0px solid #ffffff" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px" text-align="center">
+      <mj-column>
+        <mj-divider border-color="#E6E6E6" border-style="solid" border-width="2px" container-background-color="#ffffff" padding-left="25px" padding-right="25px" padding="10px 25px 10px 25px" width="100%"></mj-divider>
+        <mj-social align="center" container-background-color="#ffffff" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="13px" icon-size="32px" line-height="22px" mode="horizontal" padding-bottom="0px" padding-left="25px" padding-right="25px" padding-top="0px" padding="0px 25px 0px 25px">
+          <mj-social-element background-color="#ffffff" href="{{FACEBOOK}}" name="facebook-noshare" src="https://s3.mediusoft.com/assets/staffy/email/facebook.png"></mj-social-element>
+          <mj-social-element background-color="#ffffff" href="{{INSTAGRAM}}" name="instagram-noshare" src="https://s3.mediusoft.com/assets/staffy/email/instagram.png"></mj-social-element>
+          <mj-social-element background-color="#ffffff" href="{{TWITTER}}" name="twitter-noshare" src="https://s3.mediusoft.com/assets/staffy/email/twitter.png"></mj-social-element>
+          <mj-social-element background-color="#ffffff" href="{{LINKEDIN}}" name="linkedin-noshare" src="https://s3.mediusoft.com/assets/staffy/email/linkedin.png"></mj-social-element>
+        </mj-social>
+        <mj-text align="left" color="#000000" container-background-color="#ffffff" font-family="Arial, sans-serif" font-size="14px" letter-spacing="0" padding-bottom="0px" padding-left="25px" padding-right="25px" padding-top="0px" padding="0px 25px 0px 25px">
+          <p class="text-build-content" style="text-align: center; margin: 10px 0; margin-top: 10px; margin-bottom: 10px" data-testid="YooGorT26">
+            <span style="color: #5e6977; font-family: Arial; font-size: 14px">Mərkəz &nbsp;• &nbsp;Bakı, Azərbaycan</span>
+          </p>
+        </mj-text>
+        <mj-text align="left" color="#000000" container-background-color="#0549aa" font-family="Arial, sans-serif" font-size="16px" letter-spacing="0" padding-bottom="0px" padding-left="25px" padding-right="25px" padding-top="0px" padding="0px 25px 0px 25px">
+          <p class="text-build-content" style="text-align: center; margin: 10px 0; margin-top: 10px; margin-bottom: 10px" data-testid="kO_7jeI6I">
+            <span style="color: #f3f3f3; font-family: Arial; font-size: 16px">HƏKİMBABA</span>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
